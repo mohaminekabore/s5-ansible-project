@@ -24,7 +24,6 @@
 
 
 # my_jenkins_role/tasks/main.yml
----
 - name: Retrieve Jenkins Credential
   script: |
     jenkins_cli="{{ jenkins_cli_path }}"
